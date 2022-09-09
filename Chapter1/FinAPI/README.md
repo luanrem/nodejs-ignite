@@ -1,8 +1,8 @@
-## FinAPI - Financeira
+# FinAPI - Financeira
 
 ---
 
-### Requisitos
+## Requisitos
 
 - [] Deve ser possível criar uma conta
 - [] Deve ser possível buscar um extrato bancário do cliente
@@ -15,7 +15,7 @@
 
 ---
 
-## Regra de negócio 
+## Regra de negócio
 
 - [] Não deve ser possível cadastrar uma conta com CPF já existente
 - [] Não deve ser possível fazer depósito em uma conta não existente
