@@ -1,14 +1,18 @@
 import { Request, Response } from "express";
 import { container } from "tsyringe";
 
+import { AppError } from "../../../../errors/AppError";
 import { UpdateUserAvatarUseCase } from "./UpdateUserAvatarUseCase";
 
 class UpdateUserAvatarController {
-  async handle(request: Request, response: Response) {
+  async handle(request: Request, response: Response): Promise<Response> {
     const { id } = request.user;
 
     // Receber arquivo
-    const avatar_file = "";
+    if (!request.file) {
+      throw new AppError("The file is null", 400);
+    }
+    const avatar_file = request.file.filename;
 
     const updateUserAvatarUseCase = container.resolve(UpdateUserAvatarUseCase);
 
