@@ -3,11 +3,8 @@ import "express-async-errors";
 import swaggerUI from "swagger-ui-express";
 
 import { AppError } from "./errors/AppError";
-
 import "./database";
-
 import "./shared/container";
-
 import { router } from "./routes";
 import swaggerFile from "./swagger.json";
 
@@ -34,4 +31,4 @@ app.use(
   }
 );
 
-app.listen(3333, () => console.log("Server is running!"));
+app.listen(3000, () => console.log("Server is running!"));
