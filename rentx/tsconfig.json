@@ -7,7 +7,7 @@
     "baseUrl": "./src",
     "paths": {
       "@modules/*": ["modules/*"],
-      "@config/*": ["conig/*"],
+      "@config/*": ["config/*"],
       "@shared/*": ["shared/*"],
       "@errors/*": ["errors/*"],
       "@utils/*": ["utils/*"]
