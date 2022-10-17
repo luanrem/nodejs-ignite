@@ -5,17 +5,26 @@ The rocketseat ignite nodejs lessons
 
 ## Chapter 1
 
-- [ ] Fundamentos do NodeJS
-- [ ] Primeiro Projeto com Node
+- [x] Fundamentos do NodeJS
+- [x] Primeiro Projeto com Node
 
 ## Chapter 2
 
-- [ ] Iniciando a API
+- [x] Iniciando a API
 
 ## Chapter 3
 
-- [ ] Continuando a aplicação
+- [x] Continuando a aplicação
 
 ## Chapter 4 
 
 - [ ] Testes e regra de negócio
+
+## Chapter 5
+
+- [ ] Trabalhando com refresh_token e email
+
+## Chapter 6
+
+- [ ] Deploy
+- [ ] Serverless
