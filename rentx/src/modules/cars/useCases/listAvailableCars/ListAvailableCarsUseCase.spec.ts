@@ -61,7 +61,6 @@ describe("List Cars", () => {
     const cars = await listAvailableCarsUseCase.execute({
       name: "Car3",
     });
-    console.log(cars);
 
     expect(cars).toEqual([car]);
   });
@@ -80,7 +79,6 @@ describe("List Cars", () => {
     const cars = await listAvailableCarsUseCase.execute({
       category_id: "12345",
     });
-    console.log(cars);
 
     expect(cars).toEqual([car]);
   });
