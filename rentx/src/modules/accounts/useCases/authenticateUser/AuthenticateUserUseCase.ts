@@ -30,14 +30,14 @@ class AuthenticateUserUseCase {
     const user = await this.usersRepository.findByEmail(email);
 
     if (!user) {
-      throw new AppError("Error or password incorrect!");
+      throw new AppError("Email or password incorrect!");
     }
 
     // Senha esta correta
     const passwordMatch = await compare(password, user.password);
 
     if (!passwordMatch) {
-      throw new AppError("Error or password incorrect!");
+      throw new AppError("Email or password incorrect!");
     }
 
     // Gerar jsonwebtoken
