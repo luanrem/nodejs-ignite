@@ -18,7 +18,7 @@ The rocketseat ignite nodejs lessons
 
 ## Chapter 4 
 
-- [ ] Testes e regra de negócio
+- [x] Testes e regra de negócio
 
 ## Chapter 5
 
