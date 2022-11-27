@@ -8,6 +8,8 @@ class UpdateUserAvatarController {
   async handle(request: Request, response: Response): Promise<Response> {
     const { id } = request.user;
 
+    console.log(id);
+
     // Receber arquivo
     if (!request.file) {
       throw new AppError("The file is null", 400);
