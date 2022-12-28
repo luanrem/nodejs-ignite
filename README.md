@@ -69,29 +69,29 @@ This is the repository I used to study and follow the classes of NodeJS on Rocke
 
 - [x] Carro
 - [x] Autenticação
-- [ ] Recuperação de senha
-- [ ] Testes
+- [x] Recuperação de senha
+- [x] Testes
 
 ### Desafios
 
-- [ ] Desafio: Transferências com a FinAPI
+- [x] Desafio: Transferências com a FinAPI
 
 ## Chapter 6
 
 ### Deploy
 
-- [ ] Refresh token
-- [ ] Configurando AWS
-- [ ] Preparando deploy
-- [ ] Deploy
-- [ ] CI/CD
-- [ ] Segurança
+- [x] Refresh token
+- [x] Configurando AWS
+- [x] Preparando deploy
+- [x] Deploy
+- [x] CI/CD
+- [x] Segurança
 
 ### Serverless
 
-- [ ] Serverless
-- [ ] Microsserviços
+- [x] Serverless
+- [x] Microsserviços
 
 ### Desafios
 
-- [ ] Desafio: Construindo com serverless
+- [x] Desafio: Construindo com serverless
